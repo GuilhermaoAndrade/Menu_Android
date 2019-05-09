@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mCompartilhar"
+    android:title="Compartilhar"
+    android:icon="@drawable/share"
+        app:showAsAction="ifRoom"
+    />
+    <item android:id="@+id/mFavoritos"
+    android:title="Favoritos"
+    android:icon="@drawable/favorite"
+        app:showAsAction="always"
+    />
+
+    <item android:id="@+id/mConfiguracoes"
+        android:title="Configurações"
+        android:icon="@drawable/settings"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item android:id="@+id/mPesquisar"
+        android:title="Pesquisar"
+        android:icon="@drawable/search"
+        app:showAsAction="withText"
+        />
+
+    <item android:id="@+id/mSobre"
+        android:title="Sobre"
+        android:icon="@drawable/info"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/mSalvos"
+        android:title="Salvos"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
